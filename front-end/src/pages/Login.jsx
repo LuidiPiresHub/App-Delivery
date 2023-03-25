@@ -99,6 +99,7 @@ export default function Login() {
             <span
               className="loginError"
               data-testid={ dataTestsIds[5] }
+              style={ { display: errorMessage ? 'block' : 'none' } }
             >
               {errorMessage}
             </span>
